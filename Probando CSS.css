@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 article {
     color: rgb(49, 44, 44);
 }
@@ -7,4 +8,61 @@ img {
     width: 20%; height: 20%;
 }
 =======
+>>>>>>> desarrollo
+=======
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#imagen {
+    width: 100%;
+    height: 175px;
+    background: url(../Imágenes/milky-way-g860eb14f4_1920.jpg);
+    background-size: cover;
+    background-position: center;    
+}
+
+#foto {
+    position: absolute;
+    top: 100px;
+    width: 150px;
+    height: 150px;
+    background: url("D:/Gonzalo/Pictures/Animé/Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e/IMG-20190425-WA0015.jpg");
+    background-size: cover;
+}
+
+#nombre {
+    text-indent: 15px;
+}
+#ocupación {
+    text-indent: 15px;
+}
+
+#menu-social {
+    background: rgb(20, 20, 20);
+}
+
+.social {
+    top:0;
+    right: 0;
+}
+
+.social ul{
+    list-style:none;
+}
+
+.social ul li a{
+    display: inline-block;
+    color:white;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+.card {
+    border-radius: 10px;
+    background-color: rgb(207, 194, 194);
+    margin: 0;
+    padding: 0;
+}
 >>>>>>> desarrollo
