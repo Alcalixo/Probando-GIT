@@ -17,7 +17,7 @@
     <!-- Menú social -->
     <div class="conteiner-fuild" id="menu-social">
         <div class="row justify-content-end">
-            <div class="col-3 social text-center">
+            <div class="col-4 social text-center">
                 <ul class="list-inline"> 
                  <li class="list-inline-item"> <a href="#" class="icon-instagram"></a> </li>
                  <li class="list-inline-item"> <a href="#" class="icon-twitter"></a> </li>
@@ -25,41 +25,96 @@
                  <li class="list-inline-item"> <a href="#" class="icon-linkedin"></a> </li>
                 </ul>
             </div>
+            <!--Login Pad-->
             <div class="col-1">
-                <button type="button" class="btn btn-white">Login</button>
+                <button type="button" class="btn btn-white" data-bs-toggle="modal" data-bs-target="#dialogo1">Login</button>
+                
+                <div class="modal fade" id="dialogo1">
+                    <div class="modal-dialog modal-lg modal-dialog-centered">
+                      <div class="modal-content">
+                  
+                        <!-- head -->
+                        <div class="modal-header">
+                          <h4 class="modal-title">Credenciales</h4>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                  
+                        <!-- body -->
+                        <div class="modal-body">
+                            <div class="container-fluid">   
+                              <form>
+                                <div class="mb-3 row">
+                                  <label for="usuario" class="col-sm-3 col-form-label">User:</label>
+                                  <div class="col-sm-9">
+                                    <input type="text" class="form-control" id="usuario">
+                                  </div>
+                                </div>
+                                <div class="mb-3 row">
+                                  <label for="clave" class="col-sm-3 col-form-label">Password:</label>
+                                  <div class="col-sm-9">
+                                    <input type="password" class="form-control" id="clave">
+                                  </div>
+                                </div>
+                                <div class="mb-3 row">
+                                  <div class="offset-sm-3 col-sm-9">
+                                    <button type="submit" class="btn btn-primary">Ingresar</button> 
+                                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Volver Atrás</button>
+                                  </div>
+                                </div>  
+                              </form>
+                            </div>            
+                        </div>
+                  
+                        <!-- foot -->
+                        <div class="modal-footer">
+                          <p>Entrada al sitio</p>
+                        </div>
+                  
+                      </div>
+                    </div>
+                  </div> 
             </div>
         </div>
     </div>
     <div class="conteiner-fluid">
-        <img id="imagen">
+        <img id="imagen1">
     </div>
     <!-- Portada -->
     <div class="container-fluid">
         <div class="card">
-            <img id="foto" class="rounded-circle">
-            
+           <img id="foto" class="rounded-circle">             
             <br>
             <br>
             
-            <div class="row justify-content-around">
-                
+            <div class="row">
                 <div class="col-3 offset-2">
                     <button type="button" class="btn icon-pencil"></button>
                 </div>
-                <div class="col-2 offset-5">
-                    <img id="logo-japones" alt="logo japones">
-                </div>
             </div>
             <br>
-            <h2 id="nombre">Kiyotaka Ayanokōji</h2>
-            <p id="ocupación">Estudiante de la Preparatoria Metropolitana de Educación Avanzada.</p>
-        </div>
-        <div class="card">
-            <p> lorem ipsum dolor sit amet consectetur adipisicing elit. Illo perspiciatis nihil, error suscipit exercitationem repudiandae animi quidem quisquam. Delectus eveniet quis similique eos soluta, eum beatae tempore quod maiores sapiente!</p>
-            <br>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum voluptatem sapiente aliquid fugit cum alias voluptas! Ipsum ducimus facilis, natus commodi labore similique voluptas voluptates soluta itaque amet earum excepturi.</p>
-            <br>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim velit deleniti cumque cupiditate omnis, alias nam porro dolore eaque nostrum ex ullam explicabo vero. Deserunt harum earum provident cumque adipisci.</p>
+            <div class="container">
+
+                <form>
+                  <div class="mb-3 row">
+                    <label for="usuario" class="col-sm-3 col-form-label">Nombre y Apellido:</label>
+                    <div class="col-sm-9">
+                      <input type="text" class="form-control-sm" id="nombre">
+                    </div>
+                  </div>
+                  <div class="mb-3 row">
+                    <label for="clave" class="col-sm-3 col-form-label">Ocupación Principal</label>
+                    <div class="col-sm-9">
+                      <input type="text" class="form-control-sm" id="ocupación">
+                    </div>
+                  </div>
+                  <div class="mb-3 row">
+                    <div class="offset-sm-3 col-sm-9">
+                      <button type="submit" class="btn btn-primary">Actualizar</button> 
+                    </div>
+                  </div>  
+                </form>
+            
+              </div>
         </div>
     </div>
 

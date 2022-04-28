@@ -3,13 +3,13 @@
     padding: 0;
 }
 
-#imagen {
+#imagen1 {    
+    position: absolute;
     width: 100%;
     height: 175px;
     background: url(../Imágenes/milky-way-g860eb14f4_1920.jpg);
     background-size: cover;
     background-position: center;
-
 }
 
 #foto {
@@ -21,20 +21,14 @@
     background-size: cover;
 }
 
-#nombre {
-    text-indent: 15px;
-}
-#ocupación {
-    text-indent: 15px;
-}
-
 #menu-social {
     background: rgb(20, 20, 20);
+    padding-right: 15px;
 }
 
 .social {
-    top:5px;
-    right: 0;
+    margin-top: 10px;
+    margin-bottom: -10px;
 }
 
 .social ul{
@@ -50,15 +44,10 @@
 
 .card {
     border-radius: 10px;
-    background-color: rgb(207, 194, 194);
+    background-color: rgb(121, 111, 111);
     margin: 0;
     padding: 0;
-}
-
-#logo-japones {
-    background: url(../Imágenes/code-g5d2fb6e70_1920.jpg);
-    width: 50px;
-    height: 50px;
+    top: 175px;
 }
 
 .btn-white{
