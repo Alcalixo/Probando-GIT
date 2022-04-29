@@ -55,3 +55,12 @@
     border-bottom: 1px;
     border-color: white;
 }
+
+.modal-content{
+    background-color: rgb(26, 24, 24);
+    color: white;
+}
+
+.btn-close{
+    color: white;
+}
